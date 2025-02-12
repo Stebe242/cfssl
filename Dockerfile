@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y -q \
  && chmod a+x bin/*
 
 FROM $BASEIMAGE
-MAINTAINER Sebastian Braun <sebastian.braun@fh-aachen.de>
+LABEL maintainer="Stephan Zander <stephan.zander@lucas-nuelle.de>"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG en_US.UTF-8
